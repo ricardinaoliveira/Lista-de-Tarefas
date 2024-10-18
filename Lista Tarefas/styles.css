@@ -1,0 +1,108 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+   text-align: center;
+
+   
+}
+.cabecalho{
+    background-color: rgb(108, 101, 101);
+    padding: 10px;
+  
+  
+   
+
+}
+
+input{
+    padding: 8px;
+    width: 500px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+button{
+    padding: 8px;
+    cursor: pointer;
+    background: #c99abf;
+    font: 1em sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgb(0,0,0);
+}
+ul{
+   
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 25px;
+   
+   
+  
+  
+}
+
+
+li{ 
+   
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    gap: 2px;
+    border-radius: 15px;
+    list-style-type: none;
+    background-color: rgb(253, 254, 255);
+    border: 1px solid;
+    box-shadow: 0px 1px 1px 0px;
+  
+   
+    
+   
+}
+li span{
+    cursor: pointer;
+    font-size: large;
+    gap: 2px;
+    color: rgb(36, 30, 30);
+    border-radius: 15px 0px 0px 0px;
+    font-weight: bold;
+    padding:0px 6px;;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-right: 0px;
+    align-self: start;
+  
+   
+}
+
+ 
+
+input[type = "checkbox"]{
+    padding-left: 0%;
+    margin-left: 0px;
+   
+    
+}
+input[type = "checkbox"]:checked +label{
+    text-decoration: line-through;
+    color: #988585;
+    margin-left: 0%;
+    display: flex;
+    padding: 0px;
+  
+   
+}
